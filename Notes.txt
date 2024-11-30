@@ -1,0 +1,11 @@
+La carpeta config tiene variables globales y tambien tiene el acceso a la base de datos
+-tengo que investigar si es recomedable tener el acceso a la bd alli o utilizar un .env 
+    que luego se haga referencia alli para no tener el usuario y contrasena en app.php
+
+
+
+Para agregar nuevos colores en el tailwind.min.css 
+Si el color esta en un media query: 
+    .lg\:bg-blue-990{--tw-bg-opacity:1;background-color:rgba(9, 47, 107,var(--tw-bg-opacity))}
+Si el color es solo bg entonces 
+    .bg-blue-990{--tw-bg-opacity:1;background-color:rgba(9, 47, 107,var(--tw-bg-opacity))}

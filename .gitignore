@@ -1,0 +1,5 @@
+# Ignorar la carpeta Fonts
+views/Fonts/
+
+# Ignorar la carpeta Public
+Public/
