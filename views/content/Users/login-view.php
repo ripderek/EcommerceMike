@@ -3,8 +3,6 @@
 
 <head>
     <?php require_once "./views/inc/head.php" ?>
-    <link rel="stylesheet" href="<?php echo SERVERURL; ?>views/Styles/Global.css">
-    <link rel="stylesheet" href="<?php echo SERVERURL; ?>views/Styles/Tailwind.min.css">
 </head>
 
 <body class="bg-p-blue-900">
@@ -37,16 +35,9 @@
         </div>
     </div>
     <!--FOOTER-->
-    <footer class="bg-p-yellow-600 fixed bottom-0 w-full">
-        <div class="grid gap-3 p-5 grid-cols-1 md:grid-cols-2">
-            <div class="text-center">© 2025 Extintor Team</div>
-            <div class="grid gap-3  grid-cols-3 text-center">
-                <a href="#" class="hover:text-black font-bold text-p-blue-1000">Acerca de </a>
-                <a href="#" class="hover:text-black font-bold text-p-blue-1000">Licencia</a>
-                <a href="#" class="hover:text-black font-bold text-p-blue-1000">Contacto</a>
-            </div>
-        </div>
-    </footer>
+    <?php
+    require_once "./views/Components/Others/Footer.php";
+    ?>
 </body>
 
 </html>
