@@ -33,7 +33,7 @@ if (isset($_GET['views'])) {
     }
 
     if ($vista == "tienda" || $vista == "404") {
-        require_once "./views/content/" . $vista . "-view.php";
+        require_once "./views/content/" . $vista . ".php";
     } else {
         require_once $vista;
     }

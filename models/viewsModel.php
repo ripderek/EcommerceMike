@@ -14,8 +14,8 @@ class viewsModel
         //si existe la subvista entonces quiere decir que va a entrar en una carpeta 
         if ($subvista) {
             if (in_array($vista, $listaBlanca)) {
-                if (is_file("./views/content/" . $vista . "/" . $subvista . "-view.php")) {
-                    $contentido = "./views/content/" . $vista . "/" . $subvista . "-view.php";
+                if (is_file("./views/content/" . $vista . "/" . $subvista . ".php")) {
+                    $contentido = "./views/content/" . $vista . "/" . $subvista . ".php";
                 } else {
                     $contentido = "404";
                 }
@@ -26,8 +26,8 @@ class viewsModel
         //quiere decir que va a buscar en una sola vista y no en subcarpetas
         else {
             if (in_array($vista, $listaBlanca)) {
-                if (is_file("./views/content/" . $vista . "-view.php")) {
-                    $contentido = "./views/content/" . $vista . "-view.php";
+                if (is_file("./views/content/" . $vista . ".php")) {
+                    $contentido = "./views/content/" . $vista . ".php";
                 } else {
                     $contentido = "404";
                 }

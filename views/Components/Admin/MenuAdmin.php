@@ -1,9 +1,9 @@
 	<!-- Sidebar -->
-	<div id="sidebar">
+	<div id="sidebar" class="bg-blue-600">
 		<div class="inner">
 
 			<!-- Search -->
-			<section id="search" class="alt">
+			<section id="search" class="alt bg-red-500">
 				<form method="post" action="#">
 					<input type="text" name="query" id="query" placeholder="Search" />
 				</form>
