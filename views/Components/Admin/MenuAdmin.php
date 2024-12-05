@@ -1,34 +1,36 @@
 	<!-- Sidebar -->
-	<div id="sidebar" class="bg-blue-600">
+	<div id="sidebar" class="bg-p-blue-1000">
 		<div class="inner">
 
-			<!-- Search -->
+			<!-- Search 
 			<section id="search" class="alt bg-red-500">
 				<form method="post" action="#">
 					<input type="text" name="query" id="query" placeholder="Search" />
 				</form>
 			</section>
+			-->
+
+			<section id="search" class="alt bg-blue-900">
+				<div class="lg:w-52 w-36 lg:h-10 h-6 mx-auto">
+					<img src="<?php echo SERVERURL; ?>Public/Images/Extintor_logo7.png" alt="logo_app">
+				</div>
+			</section>
 
 			<!-- Menu -->
 			<nav id="menu">
-				<header class="major">
-					<h2>Menu</h2>
+				<header class="major mb-2">
+					<h2>Productos</h2>
 				</header>
 				<ul>
-					<li><a href="index.html">Homepage</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="index.html">Listar Productos</a></li>
 					<li>
-						<span class="opener">Submenu</span>
+						<span class="opener">Gestionar</span>
 						<ul>
-							<li><a href="#">Lorem Dolor</a></li>
-							<li><a href="#">Ipsum Adipiscing</a></li>
-							<li><a href="#">Tempus Magna</a></li>
-							<li><a href="#">Feugiat Veroeros</a></li>
+							<li><a href="#">Ofertas</a></li>
+							<li><a href="#">Categorias</a></li>
+							<li><a href="#">Tipos productos</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Etiam Dolore</a></li>
-					<li><a href="#">Adipiscing</a></li>
 					<li>
 						<span class="opener">Another Submenu</span>
 						<ul>
@@ -38,13 +40,10 @@
 							<li><a href="#">Feugiat Veroeros</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Maximus Erat</a></li>
-					<li><a href="#">Sapien Mauris</a></li>
-					<li><a href="#">Amet Lacinia</a></li>
 				</ul>
 			</nav>
 
-			<!-- Section -->
+			<!-- Section 
 			<section>
 				<header class="major">
 					<h2>Ante interdum</h2>
@@ -67,8 +66,8 @@
 					<li><a href="#" class="button">More</a></li>
 				</ul>
 			</section>
-
-			<!-- Section -->
+-->
+			<!-- Section 
 			<section>
 				<header class="major">
 					<h2>Get in touch</h2>
@@ -81,7 +80,7 @@
 						Nashville, TN 00000-0000</li>
 				</ul>
 			</section>
-
+-->
 			<!-- Footer -->
 			<footer id="footer">
 				<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
