@@ -5,16 +5,23 @@
     <?php require_once "./views/inc/head.php" ?>
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>views/Styles/MenuAdmin.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>views/Styles/fontawesome-all.min.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>views/Styles/NavbarAdmin.css">
 </head>
 
 <body>
     <div id="wrapper">
-
-        <!-- Main -->
+        <!-- Navbar -->
+        <?php
+        require_once "./views/Components/Admin/NavBar.php";
+        ?>
+        <!-- Main Content-->
         <div id="main">
             <div class="inner text-black">
 
-                <h1>Titulo</h1>
+                <h1>Titulos</h1>
 
                 <p class="text-black"> aqui va el contenido de la paguina para listar productos jsjsjs xd
                 </p>
@@ -28,7 +35,6 @@
         ?>
         <!--SCRIPTS -->
         <?php require_once "./views/inc/scriptsAdminMenu.php" ?>
-
     </div>
 </body>
 

@@ -1,20 +1,11 @@
 	<!-- Sidebar -->
-	<div id="sidebar" class="bg-p-blue-1000">
+	<div id="sidebar" class="bg-p-blue-1000 z-50">
 		<div class="inner">
-
-			<!-- Search 
-			<section id="search" class="alt bg-red-500">
-				<form method="post" action="#">
-					<input type="text" name="query" id="query" placeholder="Search" />
-				</form>
-			</section>
-			-->
-
-			<section id="search" class="alt bg-blue-900">
+			<div>
 				<div class="lg:w-52 w-36 lg:h-10 h-6 mx-auto">
 					<img src="<?php echo SERVERURL; ?>Public/Images/Extintor_logo7.png" alt="logo_app">
 				</div>
-			</section>
+			</div>
 
 			<!-- Menu -->
 			<nav id="menu">

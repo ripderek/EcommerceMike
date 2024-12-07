@@ -3,3 +3,4 @@
 <script src="<?php echo SERVERURL; ?>views/Js/AdminMenu/jquery.min.js"></script>
 <script src="<?php echo SERVERURL; ?>views/Js/AdminMenu/main.js"></script>
 <script src="<?php echo SERVERURL; ?>views/Js/AdminMenu/util.js"></script>
+<script src="<?php echo SERVERURL; ?>views/Js/AdminNabvar/main.js"></script>
