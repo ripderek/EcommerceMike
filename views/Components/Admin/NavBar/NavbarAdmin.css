@@ -65,7 +65,9 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
-  position: fixed;
+  /*position: fixed;*/
+position: static;
+z-index: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -107,8 +109,8 @@ a {
 
 .nav__toggle {
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 52px;
+  height: 52px;
 }
 
 .nav__burger,

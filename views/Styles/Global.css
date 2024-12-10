@@ -1,12 +1,14 @@
+
 @font-face {
   font-family: "Roboto";
-  src: url(/Fonts/Roboto/Roboto-Black.ttf);
+  src: url(../Fonts/Roboto/Roboto-Black.ttf);
   font-weight: bold;
   font-style: bold;
 }
+
 @font-face {
   font-family: "Roboto";
-  src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+  src: url(../Fonts/Roboto/Roboto-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
@@ -14,9 +16,13 @@ body {
   font-family: "Roboto";
   font-weight: normal;
 }
-h1 {
+h1,h2 {
   font-family: "Roboto";
   font-weight: bold;
+}
+h3 {
+  font-family: "Roboto";
+  font-weight: bolder;
 }
 p {
   font-family: "Roboto";
